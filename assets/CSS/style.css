@@ -1,0 +1,70 @@
+body {
+    background-image: url("../images/gravel.png");
+}
+body h1 {
+    font-size: 16px;
+}
+.col-md-1 {
+    width:125px;
+    height:150px;
+    margin:10px 10px 10px 10px;
+}
+.outer-warpper {
+    Margin:0px !important;
+    position: relative;
+    width:125px;
+    height:150px;
+    background-color: #FFF;
+}
+.img-wrapper {
+    position: absolute;
+    bottom:20px;
+    right:20px;
+    width:85px;
+    height:110px;
+    
+    border-top: 10px;
+    border-right: 10px;
+    border-left:10px;
+    border-bottom:10px;
+    border-style: solid;
+    border-color: green;
+    
+}
+.allimg {
+    width: 100%;
+    height: 100%;
+}
+.outer-warpper p {
+    text-align: center;
+    margin:0 auto 0 auto;
+    position: absolute;
+    bottom:0px;
+    height: 20px;
+    width:100%;
+
+    color:black
+    
+    
+}
+
+.for-defender {
+    padding:15px;
+    margin:35px;
+}
+#fight {
+    margin :0px 35px 0px 35px;
+    Padding: 0px 15px 0px 15px;
+}
+.for-character{
+    margin :35px 35px 0px 35px;
+    Padding: 0px 15px 0px 15px;
+}
+.for-enimies{
+    margin :0px 35px 0px 35px;
+    Padding: 0px 15px 0px 15px;
+}
+.for-defender{
+    margin :0px 35px 0px 35px;
+    Padding: 0px 15px 0px 15px;
+}
