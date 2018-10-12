@@ -327,6 +327,7 @@ function fightbut(){
             }else if (obhp<= 0){
                 col5 = true;
                 $( "#colum8" ).empty();
+                console.log(skhp);
             }
             if ((!sdmov)&& (sdhp>0)){
                 sdhp =sdhp-maat;
@@ -337,16 +338,20 @@ function fightbut(){
             }else if (sdhp <= 0){
                 col5 =true;
                 $( "#colum10" ).empty();
+                console.log(skhp);
             }
             if ((!skmov) && (skhp>0)){
                 skhp = skhp -maat;
+                
                 mahp =  mahp -skat;
                 skat = skat +6;
                 maat = maat +12;
+                console.log(skhp);
                 
             }else if(skhp <= 0){
                 col5=true;
                 $( "#colum9" ).empty();
+                console.log(skhp);
             }
     if (mahp <= 0){
         alert("you lost");
@@ -354,7 +359,7 @@ function fightbut(){
         location.reload();
 
     }
-    if ((skhp>0) && (mahp <= 0) && (obhp<=0) && (sdhp<=0)){
+    if ((mahp>0) && (skhp <= 0) && (obhp<=0) && (sdhp<=0)){
         alert("you won");
         $.myupdate();
         location.reload();
